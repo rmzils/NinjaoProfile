@@ -1,0 +1,548 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2D57B83C1C988C9100390D4C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D57B83B1C988C9100390D4C /* main.m */; };
+		2D57B83F1C988C9100390D4C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D57B83E1C988C9100390D4C /* AppDelegate.m */; };
+		2D57B8421C988C9100390D4C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D57B8411C988C9100390D4C /* ViewController.m */; };
+		2D57B8451C988C9100390D4C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D57B8431C988C9100390D4C /* Main.storyboard */; };
+		2D57B8471C988C9100390D4C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D57B8461C988C9100390D4C /* Assets.xcassets */; };
+		2D57B84A1C988C9100390D4C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D57B8481C988C9100390D4C /* LaunchScreen.storyboard */; };
+		2D57B8551C988C9100390D4C /* NinjaoProfileTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D57B8541C988C9100390D4C /* NinjaoProfileTests.m */; };
+		2D57B8601C988C9100390D4C /* NinjaoProfileUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D57B85F1C988C9100390D4C /* NinjaoProfileUITests.m */; };
+		2D57B8761C988D0100390D4C /* MenuInicial.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D57B8741C988D0100390D4C /* MenuInicial.m */; };
+		2D57B8771C988D0100390D4C /* MenuInicial.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2D57B8751C988D0100390D4C /* MenuInicial.xib */; };
+		2D57B87D1C9898E900390D4C /* Fuuinijutsu.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D57B87C1C9898E900390D4C /* Fuuinijutsu.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2D57B8511C988C9100390D4C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2D57B82F1C988C9100390D4C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2D57B8361C988C9100390D4C;
+			remoteInfo = NinjaoProfile;
+		};
+		2D57B85C1C988C9100390D4C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2D57B82F1C988C9100390D4C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2D57B8361C988C9100390D4C;
+			remoteInfo = NinjaoProfile;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2D57B8371C988C9100390D4C /* NinjaoProfile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NinjaoProfile.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D57B83B1C988C9100390D4C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2D57B83D1C988C9100390D4C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2D57B83E1C988C9100390D4C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2D57B8401C988C9100390D4C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2D57B8411C988C9100390D4C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2D57B8441C988C9100390D4C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2D57B8461C988C9100390D4C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2D57B8491C988C9100390D4C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2D57B84B1C988C9100390D4C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2D57B8501C988C9100390D4C /* NinjaoProfileTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NinjaoProfileTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D57B8541C988C9100390D4C /* NinjaoProfileTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NinjaoProfileTests.m; sourceTree = "<group>"; };
+		2D57B8561C988C9100390D4C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2D57B85B1C988C9100390D4C /* NinjaoProfileUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NinjaoProfileUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D57B85F1C988C9100390D4C /* NinjaoProfileUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NinjaoProfileUITests.m; sourceTree = "<group>"; };
+		2D57B8611C988C9100390D4C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2D57B8731C988D0100390D4C /* MenuInicial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MenuInicial.h; path = NinjaoProfile/MenuInicial.h; sourceTree = "<group>"; };
+		2D57B8741C988D0100390D4C /* MenuInicial.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MenuInicial.m; path = NinjaoProfile/MenuInicial.m; sourceTree = "<group>"; };
+		2D57B8751C988D0100390D4C /* MenuInicial.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MenuInicial.xib; path = NinjaoProfile/MenuInicial.xib; sourceTree = "<group>"; };
+		2D57B87C1C9898E900390D4C /* Fuuinijutsu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Fuuinijutsu.png; path = ../../../Downloads/Fuuinijutsu.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2D57B8341C988C9100390D4C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D57B84D1C988C9100390D4C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D57B8581C988C9100390D4C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2D57B82E1C988C9100390D4C = {
+			isa = PBXGroup;
+			children = (
+				2D57B8721C988CC800390D4C /* Menu */,
+				2D57B8391C988C9100390D4C /* NinjaoProfile */,
+				2D57B8531C988C9100390D4C /* NinjaoProfileTests */,
+				2D57B85E1C988C9100390D4C /* NinjaoProfileUITests */,
+				2D57B8381C988C9100390D4C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2D57B8381C988C9100390D4C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2D57B8371C988C9100390D4C /* NinjaoProfile.app */,
+				2D57B8501C988C9100390D4C /* NinjaoProfileTests.xctest */,
+				2D57B85B1C988C9100390D4C /* NinjaoProfileUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2D57B8391C988C9100390D4C /* NinjaoProfile */ = {
+			isa = PBXGroup;
+			children = (
+				2D57B83D1C988C9100390D4C /* AppDelegate.h */,
+				2D57B83E1C988C9100390D4C /* AppDelegate.m */,
+				2D57B8401C988C9100390D4C /* ViewController.h */,
+				2D57B8411C988C9100390D4C /* ViewController.m */,
+				2D57B8431C988C9100390D4C /* Main.storyboard */,
+				2D57B8461C988C9100390D4C /* Assets.xcassets */,
+				2D57B8481C988C9100390D4C /* LaunchScreen.storyboard */,
+				2D57B84B1C988C9100390D4C /* Info.plist */,
+				2D57B83A1C988C9100390D4C /* Supporting Files */,
+			);
+			path = NinjaoProfile;
+			sourceTree = "<group>";
+		};
+		2D57B83A1C988C9100390D4C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2D57B83B1C988C9100390D4C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2D57B8531C988C9100390D4C /* NinjaoProfileTests */ = {
+			isa = PBXGroup;
+			children = (
+				2D57B8541C988C9100390D4C /* NinjaoProfileTests.m */,
+				2D57B8561C988C9100390D4C /* Info.plist */,
+			);
+			path = NinjaoProfileTests;
+			sourceTree = "<group>";
+		};
+		2D57B85E1C988C9100390D4C /* NinjaoProfileUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2D57B85F1C988C9100390D4C /* NinjaoProfileUITests.m */,
+				2D57B8611C988C9100390D4C /* Info.plist */,
+			);
+			path = NinjaoProfileUITests;
+			sourceTree = "<group>";
+		};
+		2D57B8721C988CC800390D4C /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				2D57B8731C988D0100390D4C /* MenuInicial.h */,
+				2D57B8741C988D0100390D4C /* MenuInicial.m */,
+				2D57B8751C988D0100390D4C /* MenuInicial.xib */,
+				2D57B87C1C9898E900390D4C /* Fuuinijutsu.png */,
+			);
+			name = Menu;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2D57B8361C988C9100390D4C /* NinjaoProfile */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D57B8641C988C9100390D4C /* Build configuration list for PBXNativeTarget "NinjaoProfile" */;
+			buildPhases = (
+				2D57B8331C988C9100390D4C /* Sources */,
+				2D57B8341C988C9100390D4C /* Frameworks */,
+				2D57B8351C988C9100390D4C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NinjaoProfile;
+			productName = NinjaoProfile;
+			productReference = 2D57B8371C988C9100390D4C /* NinjaoProfile.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2D57B84F1C988C9100390D4C /* NinjaoProfileTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D57B8671C988C9100390D4C /* Build configuration list for PBXNativeTarget "NinjaoProfileTests" */;
+			buildPhases = (
+				2D57B84C1C988C9100390D4C /* Sources */,
+				2D57B84D1C988C9100390D4C /* Frameworks */,
+				2D57B84E1C988C9100390D4C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2D57B8521C988C9100390D4C /* PBXTargetDependency */,
+			);
+			name = NinjaoProfileTests;
+			productName = NinjaoProfileTests;
+			productReference = 2D57B8501C988C9100390D4C /* NinjaoProfileTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2D57B85A1C988C9100390D4C /* NinjaoProfileUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D57B86A1C988C9100390D4C /* Build configuration list for PBXNativeTarget "NinjaoProfileUITests" */;
+			buildPhases = (
+				2D57B8571C988C9100390D4C /* Sources */,
+				2D57B8581C988C9100390D4C /* Frameworks */,
+				2D57B8591C988C9100390D4C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2D57B85D1C988C9100390D4C /* PBXTargetDependency */,
+			);
+			name = NinjaoProfileUITests;
+			productName = NinjaoProfileUITests;
+			productReference = 2D57B85B1C988C9100390D4C /* NinjaoProfileUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2D57B82F1C988C9100390D4C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Bepid;
+				TargetAttributes = {
+					2D57B8361C988C9100390D4C = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					2D57B84F1C988C9100390D4C = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 2D57B8361C988C9100390D4C;
+					};
+					2D57B85A1C988C9100390D4C = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 2D57B8361C988C9100390D4C;
+					};
+				};
+			};
+			buildConfigurationList = 2D57B8321C988C9100390D4C /* Build configuration list for PBXProject "NinjaoProfile" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2D57B82E1C988C9100390D4C;
+			productRefGroup = 2D57B8381C988C9100390D4C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2D57B8361C988C9100390D4C /* NinjaoProfile */,
+				2D57B84F1C988C9100390D4C /* NinjaoProfileTests */,
+				2D57B85A1C988C9100390D4C /* NinjaoProfileUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2D57B8351C988C9100390D4C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D57B84A1C988C9100390D4C /* LaunchScreen.storyboard in Resources */,
+				2D57B8471C988C9100390D4C /* Assets.xcassets in Resources */,
+				2D57B8771C988D0100390D4C /* MenuInicial.xib in Resources */,
+				2D57B8451C988C9100390D4C /* Main.storyboard in Resources */,
+				2D57B87D1C9898E900390D4C /* Fuuinijutsu.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D57B84E1C988C9100390D4C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D57B8591C988C9100390D4C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2D57B8331C988C9100390D4C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D57B8421C988C9100390D4C /* ViewController.m in Sources */,
+				2D57B83F1C988C9100390D4C /* AppDelegate.m in Sources */,
+				2D57B8761C988D0100390D4C /* MenuInicial.m in Sources */,
+				2D57B83C1C988C9100390D4C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D57B84C1C988C9100390D4C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D57B8551C988C9100390D4C /* NinjaoProfileTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D57B8571C988C9100390D4C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D57B8601C988C9100390D4C /* NinjaoProfileUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2D57B8521C988C9100390D4C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2D57B8361C988C9100390D4C /* NinjaoProfile */;
+			targetProxy = 2D57B8511C988C9100390D4C /* PBXContainerItemProxy */;
+		};
+		2D57B85D1C988C9100390D4C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2D57B8361C988C9100390D4C /* NinjaoProfile */;
+			targetProxy = 2D57B85C1C988C9100390D4C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2D57B8431C988C9100390D4C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2D57B8441C988C9100390D4C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2D57B8481C988C9100390D4C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2D57B8491C988C9100390D4C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2D57B8621C988C9100390D4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2D57B8631C988C9100390D4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2D57B8651C988C9100390D4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = NinjaoProfile/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = macito.NinjaoProfile;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		2D57B8661C988C9100390D4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = NinjaoProfile/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = macito.NinjaoProfile;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		2D57B8681C988C9100390D4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = NinjaoProfileTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = macito.NinjaoProfileTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NinjaoProfile.app/NinjaoProfile";
+			};
+			name = Debug;
+		};
+		2D57B8691C988C9100390D4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = NinjaoProfileTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = macito.NinjaoProfileTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NinjaoProfile.app/NinjaoProfile";
+			};
+			name = Release;
+		};
+		2D57B86B1C988C9100390D4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = NinjaoProfileUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = macito.NinjaoProfileUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = NinjaoProfile;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		2D57B86C1C988C9100390D4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = NinjaoProfileUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = macito.NinjaoProfileUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = NinjaoProfile;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D57B8321C988C9100390D4C /* Build configuration list for PBXProject "NinjaoProfile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D57B8621C988C9100390D4C /* Debug */,
+				2D57B8631C988C9100390D4C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D57B8641C988C9100390D4C /* Build configuration list for PBXNativeTarget "NinjaoProfile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D57B8651C988C9100390D4C /* Debug */,
+				2D57B8661C988C9100390D4C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D57B8671C988C9100390D4C /* Build configuration list for PBXNativeTarget "NinjaoProfileTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D57B8681C988C9100390D4C /* Debug */,
+				2D57B8691C988C9100390D4C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D57B86A1C988C9100390D4C /* Build configuration list for PBXNativeTarget "NinjaoProfileUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D57B86B1C988C9100390D4C /* Debug */,
+				2D57B86C1C988C9100390D4C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2D57B82F1C988C9100390D4C /* Project object */;
+}
